@@ -30,12 +30,6 @@ export default class Header extends Component {
               <li>
                 <Link to="/profile/" className="menu__links">Профиль</Link>
               </li>
-              <li>
-                <Link to="/admin/" className="menu__links">Админка</Link>
-              </li>
-              <li>
-                <button className="toggleClass" onClick={this.toggleClass}></button>
-              </li>
             </ul>
           </nav>
         </div>
