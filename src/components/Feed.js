@@ -1,5 +1,5 @@
 import React from 'react';
-import Posts from './Posts';
+import Posts from '../pages/Posts';
 import Users from './Users';
 
 export default function Feed() {

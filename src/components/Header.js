@@ -30,6 +30,9 @@ export default class Header extends Component {
               <li>
                 <Link to="/profile/" className="menu__links">Профиль</Link>
               </li>
+              <li>
+                <Link to="/registration" className="menu__links">Авторизация</Link>
+              </li>
             </ul>
           </nav>
         </div>

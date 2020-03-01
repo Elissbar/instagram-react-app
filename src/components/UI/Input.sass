@@ -1,0 +1,41 @@
+.inputs
+    padding: 9px 0 7px 8px
+    font-size: 16px
+    text-overflow: ellipsis
+    margin: 0
+    outline: none
+    border: solid 1px #ccc6c6
+    background: #fafafa
+    width: 268px
+    border-radius: 4px
+    height: 36px
+    float: left
+
+.errorIcon
+    width: 20px
+    height: 20px
+    border-radius: 50%
+    border: 1px solid red
+    position: relative
+    top: 8px
+    left: 230px
+    // float: right
+
+    .cross:before, .cross:after
+        content: ''
+        display: block
+        width: 10px
+        border: 1px solid red
+
+    .cross:before
+        margin: 8px 3px
+        transform: rotate(45deg)
+
+
+    .cross:after
+        margin: -10px 3px
+        transform: rotate(-45deg)
+
+
+
+
